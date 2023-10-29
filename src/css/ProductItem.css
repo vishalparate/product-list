@@ -1,0 +1,50 @@
+/* Add this CSS to your stylesheet */
+.product-item {
+  display: inline-block;
+  width: 250px; /* Adjust the width as needed */
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  background-color: #fff;
+  text-align: left;
+  vertical-align: top;
+}
+
+.product-item.special {
+  background-color: #ffcc00; /* Highlight special products with a different background color */
+}
+
+.product-item h2 {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #333;
+}
+
+.product-item p {
+  margin: 5px 0;
+  color: #777;
+}
+
+.product-item button {
+  display: block;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.product-item button:hover {
+  background-color: #0056b3;
+}
+
+.buttons {
+  display: flex;
+}
+
+.my-button {
+  margin-left: 30px;
+}

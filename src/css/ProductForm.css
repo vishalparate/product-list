@@ -1,0 +1,7 @@
+.buttons {
+  display: flex;
+}
+
+.my-button {
+  margin-left: 30px;
+}
